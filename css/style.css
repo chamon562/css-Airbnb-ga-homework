@@ -1,3 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+
+body{
+  font-family: 'Signika', sans-serif;
+}
+/* Meet Guidebooks top header */
+
 h1 {
-  color: salmon;
+  color:black;
+  text-align: center;
+}
+
+p {
+  color: grey;
+  text-align: center;
+}
+
+/* these are top three images */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.txtOne {
+  position: absolute;
+  top: 45%;
+  right: 70%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+
+.txtTwo {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+
+.txtThree {
+  position: absolute;
+  top: 45%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+
+
+/* this is button one */
+.button {
+text-align: center;
+}
+
+.Guidebooks {
+  padding: 10px 28px;
+  background-color: white;
+  margin: 20px;
+}
+
+/* Just for the weekend * mid title */
+h2 {
+  text-align: center;
+}
+
+/* This is button two */
+
+.buttonTwo {
+  text-align: Center;
+}
+
+.Destination {
+  padding: 10px 28px;
+  background-color: white;
+  margin: 20px;
+}
+
+/* Bottom three images */
+
+.container-two {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+.txtFour {
+  position: absolute;
+  right: 78%;
+  top: 140%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+
+.txtFive {
+  position: absolute;
+  right: 42%;
+  top: 140%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+
+.txtSix {
+  position: absolute;
+  right: 4%;
+  top: 140%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
 }
